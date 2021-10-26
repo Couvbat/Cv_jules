@@ -1,0 +1,27 @@
+body,html{
+    background-color: #363636;
+}
+
+header,footer{
+    background-color: #1c3b4f;
+}
+
+p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#pdp {
+    clip-path: circle(50% at 50% 50%);
+    width: 15vw;
+    min-width: 150px;
+    height: 15vw;
+    min-height: 150px;
+    object-fit: cover;
+    object-position: 0 0%;
+    border-color: white;
+}
+
+.bckgrdcorrection{
+    background-color: transparent !important;
+}
